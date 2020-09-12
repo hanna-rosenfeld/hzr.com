@@ -51,7 +51,7 @@ class BlogPostTemplate extends React.Component {
             <li>
               {previous && (
                 <Link
-                  className="text-blue-600"
+                  className="text-pink-600"
                   to={previous.fields.slug}
                   rel="prev"
                 >
@@ -62,7 +62,7 @@ class BlogPostTemplate extends React.Component {
             <li>
               {next && (
                 <Link
-                  className="text-blue-600"
+                  className="text-pink-600"
                   to={next.fields.slug}
                   rel="next"
                 >

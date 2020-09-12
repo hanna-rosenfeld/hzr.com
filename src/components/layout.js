@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
-
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -33,7 +31,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a className="text-blue-600" href="https://www.gatsbyjs.org">
+          <a className="text-pink-600" href="https://www.gatsbyjs.org">
             Gatsby
           </a>
         </footer>
