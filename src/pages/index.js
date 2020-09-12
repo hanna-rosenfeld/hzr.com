@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -23,7 +22,7 @@ class BlogIndex extends React.Component {
               <header>
                 <h3 className="text-2xl font-black mt-16 mb-2">
                   <Link
-                    className="text-blue-600 shadow-none"
+                    className="text-pink-600 shadow-none"
                     to={node.fields.slug}
                   >
                     {title}
