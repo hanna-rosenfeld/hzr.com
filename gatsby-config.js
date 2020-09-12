@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog TailwindCSS`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-tailwindcss-demo.netlify.com/`,
+    title: `hzr`,
+    author: `Hanna Rosenfeld`,
+    description: `my web portfolio.`,
+    siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `h_z_r`,
     },
   },
   plugins: [
