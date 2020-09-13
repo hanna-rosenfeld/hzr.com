@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `hzr`,
     author: `Hanna Rosenfeld`,
-    description: `my web portfolio.`,
+    description: ``,
+    image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
       twitter: `h_z_r`,
