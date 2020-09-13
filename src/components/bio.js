@@ -19,8 +19,8 @@ const Bio = () => {
   return (
     <div className="flex mb-20">
       <p>
-        Written by <strong>{author}</strong> who lives and works in Philly
-        building useful things.
+        <strong>{author}</strong> is a web developer who lives and works in
+        Philadelphia.
         {` `}
         <a
           className="text-pink-600"
