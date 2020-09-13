@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `hzr`,
-    author: `Hanna Rosenfeld`,
+    author: `Hanna Zita Rosenfeld`,
     description: ``,
     image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: ``,
+      twitter: `rosenfeld_hanna`,
+      linkedin: `hanna-rosenfeld`,
     },
   },
   plugins: [

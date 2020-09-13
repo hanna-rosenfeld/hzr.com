@@ -9,6 +9,7 @@ const Bio = () => {
           author
           social {
             twitter
+            linkedin
           }
         }
       }
@@ -22,12 +23,22 @@ const Bio = () => {
         <strong>{author}</strong> is a web developer who lives and works in
         Philadelphia.
         {` `}
-        <a
-          className="text-pink-600"
-          href={`https://twitter.com/${social.twitter}`}
-        >
-          >twitter
-        </a>
+        <div>
+          <a
+            className="text-pink-600"
+            href={`https://twitter.com/${social.twitter}`}
+          >
+            >twitter
+          </a>
+        </div>
+        <div>
+          <a
+            className="text-pink-600"
+            href={`https://linkedin.com/in/${social.linkedin}`}
+          >
+            >linkedin
+          </a>
+        </div>
       </p>
     </div>
   )

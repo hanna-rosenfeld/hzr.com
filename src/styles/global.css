@@ -1,25 +1,18 @@
 html {
-  background-color: black;
+    background-color: #234E52;
 }
 
 body {
-
+    color: #FFFAF0;
+    font-family: inherit;
 }
 
 h1 {
     color: palegoldenrod;
 }
 
-h2 {}
 
 h3 {
     color: Crimson;
-}
-
-p {
-    color: Snow;
-}
-
-footer {
-    color: Snow;
+    font-family: inherit;
 }
