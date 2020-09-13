@@ -6,7 +6,7 @@ module.exports = {
     image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: `h_z_r`,
+      twitter: `h__z__r`,
     },
   },
   plugins: [
