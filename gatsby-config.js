@@ -6,7 +6,7 @@ module.exports = {
     image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: `h__z__r`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -14,7 +14,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-177903962-1",
+        head: true,
       },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -52,12 +55,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -80,5 +77,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }
