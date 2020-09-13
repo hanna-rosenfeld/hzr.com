@@ -10,7 +10,8 @@ your workflow more efficient will pay off troumendously in the long
 run.
 
 [bash aliases](http://en.wikipedia.org/wiki/Salted_duck_egg).
-
+<br />
+<br />
 #files
 
 See how easy it is to create an alias that brings me always straight to my project folder.
@@ -23,7 +24,9 @@ example piping a fortune into cowsay in your .bashrc, but that for
 another time.
 
 ![terminal](./alias.jpg)
-
+<br />
+<br />
 #gatsby
+<br />
 
 ![gatsby](./alias_gatsby.png)
