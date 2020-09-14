@@ -9,7 +9,6 @@ good way to feel like you know what you are doing. making
 your workflow more efficient will pay off troumendously in the long
 run.
 
-[bash aliases](http://en.wikipedia.org/wiki/Salted_duck_egg).
 <br />
 <br />
 #files
