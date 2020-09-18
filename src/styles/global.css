@@ -9,10 +9,16 @@ body {
 
 h1 {
     color: palegoldenrod;
+
 }
 
 h2 {
     color: Crimson;
+}
+
+h1, h2, span, p, img, a {
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
 h3 {

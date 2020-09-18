@@ -1,19 +1,24 @@
 ---
-title: Testing ie with virtualbox and tunneling on Arch Linux
+title: Testing ie on Arch Linux with virtualbox and tunneling
 date: "2020-09-15T23:46:37.121Z"
 ---
 
 running microsoft on a virtual machine inside of your operating system can seem like a hard task.
+there are cross browser testing sites, but those can be costly.
+after i was presented with this headache, i decided to give virtualbox a go.
+and as it turned out, it is actually fairly straight forward. let me run you through the steps:
 
 ## dowload a version of microsoft
+
+in my case, [windows10](https://www.microsoft.com/en-us/software-download/windows10ISO)
 
 ## install virtualbox
 
 either [here](https://www.virtualbox.org/)
 
 #or using a package manager:
-
 install `virtualbox` and `virtualbox-host-modules-arch`
+
 ![bash](./yay0.png)
 
 install `linux-lts-headers` for `linux-lts`
