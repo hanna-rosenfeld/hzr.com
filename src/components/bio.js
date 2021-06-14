@@ -20,17 +20,9 @@ const Bio = () => {
   return (
     <div className="flex mb-20">
       <p>
-        <strong>{author}</strong> is a web developer who lives and works in
-        Philadelphia.
+        <strong>{author}</strong> is a web developer who lives in and works remotely from
+      Dobbs Ferry, NY.
         {` `}
-        <div>
-          <a
-            className="text-pink-600"
-            href={`https://twitter.com/${social.twitter}`}
-          >
-            >twitter
-          </a>
-        </div>
         <div>
           <a
             className="text-pink-600"

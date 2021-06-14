@@ -6,8 +6,8 @@ module.exports = {
     image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: `rosenfeld_hanna`,
-      linkedin: `hanna-rosenfeld`,
+      twitter: ``,
+      linkedin: `hanna-rosenfeld-76b278209`,
     },
   },
   plugins: [
