@@ -6,8 +6,9 @@ module.exports = {
     image: ``,
     siteUrl: `https://hannarosenfeld.com/`,
     social: {
-      twitter: ``,
-      linkedin: `hanna-rosenfeld-76b278209`,
+	twitter: ``,
+	linkedin: `hanna-rosenfeld-76b278209`,
+	freecodecamp: `hannarosenfeld`,
     },
   },
   plugins: [

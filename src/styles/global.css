@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    color: Crimson;
+    color: #d53f8c;
 }
 
 h1, h2, span, p, img, a {
@@ -22,6 +22,6 @@ h1, h2, span, p, img, a {
 }
 
 h3 {
-    color: Crimson;
+    color: #d53f8c;
     font-family: inherit;
 }
