@@ -10,6 +10,7 @@ const Bio = () => {
           social {
             twitter
             linkedin
+            freecodecamp
           }
         }
       }
@@ -33,7 +34,7 @@ const Bio = () => {
             </div>
 	    <div>
 	    <a className="text-pink-600"
-        href={`https://freecodecamp.org/${social.freecodecamp}`}
+        href={"https://freecodecamp.org/hannarosenfeld"}
             >
             >freecodecamp
 	    </a>
